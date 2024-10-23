@@ -56,7 +56,7 @@ const Translate = () => {
     else{
       let sound;
       if(id=='from'){
-        sound=new SpeechSynthesisUtterance(fromText);
+        sound=new SpeechSynthesisUtterance(fromText); //this method convert text to sound 
       }
       else{
         console.log("hello");
@@ -73,7 +73,10 @@ const handleTranslate=async ()=>{
   setloading(true)
   let url=`https://api.mymemory.translated.net/get?q=${fromText}&langpair=${fromLang}|${toLang}`;
   let response=await fetch(url);
+  //console.log(response);
+  
   let data=await response.json();
+  //console.log(data);
   settoText(data.responseData.translatedText)
   setloading(false)
   
