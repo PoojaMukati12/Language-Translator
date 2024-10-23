@@ -1,8 +1,11 @@
-# React + Vite
+# Language Translator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Developed Language Translator web app that convert text from one language to another language.
 
-Currently, two official plugins are available:
+Implemented features such as sound the text and copy the content.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Focused on user experience and interface design to provide seamless experience.
+
+## 🚀Live Demo
+
+### Check out the live version of the project [here](https://language-translator-lake.vercel.app/)
