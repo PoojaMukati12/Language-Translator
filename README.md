@@ -4,7 +4,7 @@ Developed Language Translator web app that convert text from one language to ano
 
 Implemented features such as sound the text and copy the content.
 
-Focused on user experience and interface design to provide seamless experience.
+focused on responsiveness so that it works seamlessly across all devices, whether on desktop or mobile.
 
 ## 🚀Live Demo
 
